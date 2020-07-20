@@ -2,11 +2,16 @@ from distutils.core import setup
 
 import setuptools
 
+with open('README.md') as f:
+    long_description = f.read()
+
 setup(
     name='sgqlc_schemas',
     packages=setuptools.find_packages(),
-    version='0.1.0b2',
+    version='0.1.0b3',
     description='A set of schemas for sgqlc package',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     author='Alexandr Artemyev',
     author_email='mogost@aartemyev.ru',
     license='MIT',
