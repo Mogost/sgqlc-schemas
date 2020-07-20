@@ -11,6 +11,6 @@ python3 \
     --exclude-description \
     -H "Authorization:${MONDAY_TOKEN}" \
     https://api.monday.com/v2 \
-    monday_schema.json || exit 1
+    schema.json || exit 1
 
-sgqlc-codegen monday_schema.json __init__.py
+sgqlc-codegen schema.json schema.py
