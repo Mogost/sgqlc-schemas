@@ -1,3 +1,4 @@
+[![PyPI version](https://badge.fury.io/py/sgqlc-schemas.svg)](https://badge.fury.io/py/sgqlc-schemas)
 ## About
 
 This package was created so that using [sgqlc (Simple GraphQL Client)](https://github.com/profusion/sgqlc "sgqlc (Simple GraphQL Client)") you do not need to create a schema for popular APIs.
