@@ -5,7 +5,7 @@ import setuptools
 setup(
     name='sgqlc_schemas',
     packages=setuptools.find_packages(),
-    version='0.1.0b1',
+    version='0.1.0b2',
     description='A set of schemas for sgqlc package',
     author='Alexandr Artemyev',
     author_email='mogost@aartemyev.ru',
