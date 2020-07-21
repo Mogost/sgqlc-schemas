@@ -16,7 +16,7 @@ setup(
     author_email='mogost@aartemyev.ru',
     license='MIT',
     url='https://github.com/Mogost/sgqlc-schemas',
-    keywords=['sgqlc', 'schema', 'schemas', 'github', 'monday'],
+    keywords=['sgqlc', 'schema', 'schemas', 'graphql', 'github', 'monday'],
     install_requires=['sgqlc'],
     python_requires='>=3.6',
     classifiers=[
