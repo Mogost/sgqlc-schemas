@@ -8,7 +8,7 @@ with open('README.md') as f:
 setup(
     name='sgqlc_schemas',
     packages=setuptools.find_packages(),
-    version='0.1.0b3',
+    version='0.1.0',
     description='A set of schemas for sgqlc package',
     long_description=long_description,
     long_description_content_type='text/markdown',
